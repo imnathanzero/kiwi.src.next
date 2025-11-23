@@ -19,7 +19,7 @@ jobs:
           git config --global user.name "Repository manager"
 
       - name: Adding kiwibrowser repository as upstream
-        run: git remote add upstream https://github.com/kiwibrowser/src.next.git
+        run: git remote add upstream https://github.com/imnathanzero/kiwi.src.next.git
 
       - name: Fetching kiwibrowser repository
         run: git fetch upstream
